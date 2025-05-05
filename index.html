@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Página</title>
+    <title>Página de Login</title>
+    <style>
+        body{
+            background-color: #f0f4f8;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+
+        }
+        .container{
+           background: #7289da;
+           padding: 30px;
+           border-radius: 10px;
+           box-shadow: 0 0 20px rgb(0, 30, 165);
+        }
+    </style>
 </head>
 <body>
-    <script src="/script.js"></script>
+    <div class="container">
+        <h2>Login</h2>
+         <input type="text" placeholder="Email"><br>
+         <input type="password" placeholder="Senha"><br>
+        <button>Login</button>
+    </div>    
 </body>
 </html>
